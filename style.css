@@ -1,0 +1,70 @@
+/* Style for the results container */
+#results {
+    margin-top: 20px;
+    background-color:rgb(37, 73, 108)
+  }
+  
+  /* Style for each result element */
+  .result {
+    border: 10px solid #033347;
+    padding: 30px;
+    margin-bottom: 15px;
+    color: rgb(7, 173, 219);
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: right;
+    position: relative; /* To enable relative positioning for child elements */
+    font-size: large;
+  }
+  
+  /* Indent group, description, and title */
+  .result .group {
+    margin-left: 80px;
+  }
+  
+  .result .description {
+    margin-left: 100px;
+  }
+  
+  .result .title {
+    margin-left: 120px;
+  }
+  
+  /* Style for result element headings */
+  .result p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Style for the button */
+  #btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #0893b5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: #033347;
+    align-self: normal;
+  }
+  
+  #btn:hover {
+    background-color: #6d9ae2;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .result {
+      padding: 10px;
+    }
+  
+    #btn {
+      padding: 10px 20px;
+    }
+  }
+  
+  
